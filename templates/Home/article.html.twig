@@ -1,0 +1,13 @@
+{# templates/Home/index.html.twig #}
+
+{% extends "Home/layout.html.twig" %}
+
+
+{% block title %}{{ parent() }} - TOTO{% endblock %}
+
+{% block body %}
+    <div>{{ result.id }}</div>
+    <div>{{ result.titre }}</div>
+    <div>{{ result.content }}</div>
+    <div>{{ result.etoiles }}</div>
+{% endblock %}
